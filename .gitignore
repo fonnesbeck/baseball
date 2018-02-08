@@ -58,3 +58,4 @@ target/
 
 .DS_Store
 notebooks/.ipynb_checkpoints/
+private_data/

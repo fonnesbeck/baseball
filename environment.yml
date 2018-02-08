@@ -1,0 +1,33 @@
+name: baseball
+
+channels:
+ - conda-forge
+ - anaconda
+ 
+dependencies:
+- python=3.6
+- bokeh
+- cython
+- dask
+- ipython
+- jupyter
+- keras
+- notebook
+- ipyparallel
+- jupyter_client
+- jupyter_core
+- numba
+- numpy
+- pandas
+- patsy
+- pip
+- scikit-learn
+- scipy
+- seaborn
+- xgboost
+- xlrd
+- pip:
+  - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
+  - git+https://github.com/jldbc/pybaseball.git#egg=pybaseball
+  - tensorflow
+  - pyro-ppl

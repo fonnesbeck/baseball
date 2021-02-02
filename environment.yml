@@ -2,20 +2,14 @@ name: baseball
 
 channels:
  - conda-forge
- - anaconda
  
 dependencies:
-- python=3.6
+- python=3.8
 - bokeh
-- cython
-- dask
 - ipython
-- jupyter
+- ipykernel
+- mkl
 - notebook
-- ipyparallel
-- jupyter_client
-- jupyter_core
-- numba
 - numpy
 - pandas
 - patsy
@@ -23,10 +17,9 @@ dependencies:
 - scikit-learn
 - scipy
 - seaborn
-- xgboost
-- xlrd
 - pip:
   - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
   - git+https://github.com/jldbc/pybaseball.git#egg=pybaseball
-  - tensorflow
   - pyro-ppl
+  - catboost
+  - git+https://github.com/malmgrek/gammy.git#egg=gammy

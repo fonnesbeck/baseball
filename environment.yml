@@ -4,22 +4,18 @@ channels:
  - conda-forge
  
 dependencies:
-- python=3.8
+- python
+- arviz
 - bokeh
 - ipython
 - ipykernel
-- mkl
 - notebook
 - numpy
 - pandas
 - patsy
 - pip
+- pyro-ppl
+- pytorch
 - scikit-learn
 - scipy
 - seaborn
-- pip:
-  - git+https://github.com/pymc-devs/pymc3.git#egg=pymc3
-  - git+https://github.com/jldbc/pybaseball.git#egg=pybaseball
-  - pyro-ppl
-  - catboost
-  - git+https://github.com/malmgrek/gammy.git#egg=gammy
